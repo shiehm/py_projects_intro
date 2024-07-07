@@ -3,8 +3,16 @@ starting_balance = 1000
 years = 5
 
 def compound(starting_balance, years, interest):
+    """
+    compound() returns the resulting balance given
+    a starting balance, years of interest accumulation,
+    and the interest rate. Assumes interest is compounded
+    once a year. 
+    """
     balance = starting_balance * (1 + interest)**years
     return balance
+
+print(compound.__doc__)
 
 balance = compound(starting_balance, years, interest)
 

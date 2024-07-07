@@ -1,4 +1,4 @@
-age = 22
+age = int(input('How old are you? '))
 
 print(f'You are now {age} years old.')
 
@@ -9,3 +9,8 @@ def aging(age, increment):
     print(f'In {increment * 4} years you will be {age + increment * 4}.')
     
 aging(age, 10)
+
+print()
+
+for i in range(10, 41, 10):
+    print(f'in {i} years you will be {age + i} years old.')
