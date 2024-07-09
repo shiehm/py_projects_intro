@@ -127,3 +127,6 @@ car2.spray_paint('Purple')
 
 print(f'{car.color} {car.year} {car.model} has {car.gas_mpg(12, 300)} mpg.')
 print(f'{car2.color} {car2.year} {car2.model} has {car2.gas_mpg(11, 420)} mpg.')
+
+print(car.__dict__)
+print(car2.__dict__)
